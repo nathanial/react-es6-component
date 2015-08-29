@@ -18,25 +18,6 @@ class Component extends React.Component {
       _.bindAll(this, ...methods);
     }
   }
-
-  _setup(){
-  }
-
-  _teardown(){
-  }
-
-  componentDidMount(){
-    this._setup();
-  }
-
-  componentWillUnmount(){
-    this._teardown();
-  }
-
-  componentWillReceiveProps(nextProps){
-    this._teardown();
-    this._setup();
-  }
 }
 
 export default Component;
