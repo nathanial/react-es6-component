@@ -1,11 +1,14 @@
 {
   "name" : "react-es6-component",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "description" : "ES6 React Component that autobinds methods like the non-es6 JSX version does automatically.",
   "main" : "build/Component.js",
   "scripts" : {
     "prepublish" : "gulp build"
   },
+  "files": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/nathanial/react-es6-component.git"
